@@ -7,9 +7,9 @@
 
 ## Process
 
-Checkout master branch: 
+Checkout main branch: 
     
-    git checkout master
+    git checkout main
 
 Create a new branch and checkout branch: 
     
@@ -25,12 +25,12 @@ Push to remote repository. If the branch does not exist on GitHub it is created:
     git push origin <branch-name>
 
 Open github repository and click on "New Pull Request"  
-Review pull request and merge it to master
+Review pull request and merge it to main
 
 Pull changes from GitHub repository to your local branch:
     
-    git checkout master
-    git pull origin master
+    git checkout main
+    git pull origin main
 
 Delete feature branch after feature is merged:
 
